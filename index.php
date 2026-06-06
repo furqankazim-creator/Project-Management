@@ -24,11 +24,11 @@
       </div>
       <div class="mb-3">
         <label class="form-label">Email address</label>
-        <input type="email" id="login-email" class="form-control" placeholder="admin@example.com">
+        <input type="email" id="login-email" class="form-control" placeholder="admin@example.com" autocomplete="off">
       </div>
       <div class="mb-4">
         <label class="form-label">Password</label>
-        <input type="password" id="login-password" class="form-control" placeholder="••••••••">
+        <input type="password" id="login-password" class="form-control" placeholder="••••••••" autocomplete="new-password">
       </div>
       <button class="btn btn-primary w-100 py-2" onclick="handleLogin()">
         <i class="bi bi-box-arrow-in-right me-2"></i>Sign In
